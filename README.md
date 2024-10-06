@@ -61,7 +61,8 @@ GROUP BY t.city_name
 ORDER BY t.city_name 
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/570f7cbd-7425-43cb-ae61-47bc265769d0)
+![image](https://github.com/user-attachments/assets/f76bbc96-c998-4058-9a36-afa8df814bbb)
+
 
 
 #### 5. Provide a list of cities along with their populations and estimated coffee consumers.
@@ -75,7 +76,7 @@ FROM city
 ORDER BY 2 DESC
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/04cee4fc-3025-44e5-a398-bb7b05658193)
+![image](https://github.com/user-attachments/assets/14363181-a829-4513-bd37-e6865eda4b34)
 
 
 #### 6. What are the top 3 selling products in each city based on sales volume?
@@ -100,7 +101,8 @@ FROM
 WHERE x.rank <= 3
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/78ac2e6e-87b7-4d48-8e98-3bf3a42e0c44)
+![image](https://github.com/user-attachments/assets/1f5a879f-ddf5-4c43-bcfb-998d365a819a)
+
 
 #### 7. How many unique customers are there in each city who have purchased coffee products?
 
@@ -117,7 +119,8 @@ GROUP BY c.city_name
 ORDER BY c.city_name
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/b13654f2-4a07-4cce-a898-f085246edb05)
+![image](https://github.com/user-attachments/assets/aadd20d2-b839-4b81-94f1-52d32732b5d5)
+
 
 #### 8. Find each city and their average sale per customer and avg rent per customer
 
@@ -134,7 +137,8 @@ GROUP BY t.city_name, t.estimated_rent
 ORDER BY t.city_name 
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/9bac5f20-fa01-4cb0-a07d-9b042c0e9274)
+![image](https://github.com/user-attachments/assets/dc73295f-5a01-405e-a914-dfe788a2a0e2)
+
 
 #### 9. Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
 
@@ -159,7 +163,8 @@ FROM prev_sales
 WHERE prev_sales IS NOT NULL
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/c0925b68-a425-427b-a9ef-99a793e0a2ec)
+![image](https://github.com/user-attachments/assets/ccd29483-584b-44b9-bc45-9ca7040c2928)
+
 
 
 #### 10. Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated coffee consumer
