@@ -2,11 +2,11 @@
 
 ![Coffee Shop Expansion](https://github.com/NandhuKrisz/CoffeeShop_Expansion_Analysis/blob/main/Monday%20Coffee%20Cover.png)
 
-### Objective
+<h2><u>Objective</u></h2>
 
 The goal of this project is to analyze the sales data of Monday Coffee, a company that has been selling its products online since January 2023, and to recommend the top three major cities in India for opening new coffee shop locations based on consumer demand and sales performance.
 
-### Key Questions
+<h2><u>Key Questions</u></h2>
 #### 1. How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
 ```sql
@@ -189,8 +189,8 @@ ORDER BY total_sales DESC
 #### Output
 ![image](https://github.com/user-attachments/assets/27437371-bbf2-40a5-b8a6-7a8deb78b147)
 
+<h2><u>Insights</u></h2>
 
-### Insights
 #### Top Coffee Consumer Cities:
 
 - **Delhi**: 7.8 million coffee consumers
@@ -203,7 +203,8 @@ These three cities collectively represent a significant portion of the coffee ma
 Pune stands out with the highest average sales per customer at **24,197**.
 Total sales in Pune amount to **1,258,290** indicating a healthy market presence.
 
-### Recommendations
+<h2><u>Recommendations</u></h2>
+
 **Target Marketing in Major Cities:**
 
 **Delhi, Mumbai, and Kolkata** are prime locations for targeted marketing campaigns. Consider launching promotions, coffee events, or loyalty programs to engage consumers in these cities and boost sales.
