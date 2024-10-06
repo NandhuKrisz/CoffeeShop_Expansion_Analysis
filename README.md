@@ -187,15 +187,16 @@ GROUP BY t.city_name,t.estimated_rent,t.population
 ORDER BY total_sales DESC
 ```
 #### Output
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/27437371-bbf2-40a5-b8a6-7a8deb78b147)
 
 
 ### Insights
 #### Top Coffee Consumer Cities:
 
-**Delhi**: 7.8 million coffee consumers
-**Mumbai**: 5.1 million coffee consumers
-**Kolkata**: 3.7 million coffee consumers
+- **Delhi**: 7.8 million coffee consumers
+- **Mumbai**: 5.1 million coffee consumers
+- **Kolkata**: 3.7 million coffee consumers
+
 These three cities collectively represent a significant portion of the coffee market, indicating a **strong demand** for coffee-related products and services.
 
 **Pune's Performance:**
