@@ -16,8 +16,20 @@ SELECT
 FROM city
 ORDER BY 2 DESC;
 ```
+#### Output
 ![image](https://github.com/user-attachments/assets/9e711638-c6d5-4a66-96cd-2fe8acac957b)
 
+#### 2. What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
+
+```sql
+SELECT FORMAT(SUM(total),'#,0') AS last_qtr_23_sales
+FROM sales
+WHERE DATEPART(quarter,sale_date) = 4
+AND YEAR(sale_date) = 2023
+```
+
+#### Output
+![image](https://github.com/user-attachments/assets/9bdeb4b0-ab99-4470-9a2a-aafd7b483557)
 
 
 
