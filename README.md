@@ -31,7 +31,7 @@ AND YEAR(sale_date) = 2023
 #### Output
 ![image](https://github.com/user-attachments/assets/9bdeb4b0-ab99-4470-9a2a-aafd7b483557)
 
-#### How many units of each coffee product have been sold?
+#### 3. How many units of each coffee product have been sold?
 
 ```sql
 SELECT p.product_name, COUNT(s.sale_id) AS units_sold
@@ -42,7 +42,7 @@ GROUP BY p.product_name
 ORDER BY units_sold DESC
 ```
 #### Output
-![image](https://github.com/user-attachments/assets/519df14f-5a14-45f6-a67b-d8c938c1e2f3)
+![image](https://github.com/user-attachments/assets/4a933cda-86b7-430f-ad87-75fc1635f17d)
 
 
 #### 4. What is the average sales amount per customer in each city?
