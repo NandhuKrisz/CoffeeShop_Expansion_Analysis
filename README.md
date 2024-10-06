@@ -16,4 +16,7 @@ SELECT
 FROM city
 ORDER BY 2 DESC;
 '''
+### Output
+![image](https://github.com/user-attachments/assets/032c082d-be92-4a2e-a1b9-7a6541b65b1d)
+
 
